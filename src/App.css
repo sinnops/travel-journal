@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+
+.page {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 550px;
+  background-color: #ffffff;
+}
+
+nav {
+  background-color: #F55A5A;
+  text-align: center;
+  padding: 15px;
+  width:100%;
+  font-size: 16px;
+  color: #ffffff;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav i {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.card:last-child {
+  border: none;
+}
+
+section {
+  padding-bottom: 20px;
+  margin: 20px 40px;;
+}
+
+.card--image  {
+  width: 125px;
+  height: 170px;
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.card--image img {
+  width: auto;
+  height: 100%
+}
+
+
+.card--content {
+  padding: 0px 0 0 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card--location {
+  font-size: 12px;
+}
+
+.card--location_pin {
+  color: #F55A5A;
+  margin-right:5px;
+}
+
+.card--location_country {
+  margin-right:10px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.card--location a{
+  color: #918E9B
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 10px 0 0 0;
+}
+
+h3 {
+font-weight: bold;
+font-size: 11px;
+line-height: 12px;
+}
+
+
+p {
+  margin: 0;
+  font-size: 11px;
+}
